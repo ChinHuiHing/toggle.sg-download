@@ -69,7 +69,7 @@ FILE_PREFERENCES = 	[(1,'STB','m3u8'),	# generally 720p, Set-top Box, requires f
 #url = "http://tv.toggle.sg/en/channel8/shows/the-dream-job-tif/episodes"
 
 # regex
-VALID_VIDEO_URL = r"https?://video\.toggle\.sg/(?:en|zh)/(?:series|clips|movies|tv-show)/.+?/(?P<id>[0-9]+)"
+VALID_VIDEO_URL = r"https?://www\.mewatch\.sg/(?:en|zh)/(?:series|clips|movies|tv-show)/.+?/(?P<id>[0-9]+)"
 API_USER_PASS_EXPR = r'apiUser:\s*"(?P<user>[^"]+?)".+?apiPass:\s*"(?P<password>[^"]+?)"'
 VALID_EPISODES_URL = r"http?://tv\.toggle\.sg/(?:en|zh)/.+?/episodes"
 CONTENT_NAVIGATION_EXPR = r'10, 0,  (?P<content_id>[0-9]+), (?P<navigation_id>[0-9]+), isCatchup'
